@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Navbar</title>
+    <link href="style.css" rel="stylesheet"/><link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+</head>
+<header>
+  <div class="head-bar" id="heading">
+    <h1><center>Registration</center></h1></div>
+</header>
+<body>
+  <div href="images.png" class= "page-header">
+    <div class="logo">
+      <p>KSTU</p>
+    </div>
+        <a id="menu-icon" class="menu-icon" onclick="onMenuClick()">
+          <i class="fa fa-bars"></i>
+        </a>
+    <div id="navigation-bar" class="nav-bar">
+      <a href="index.html" class="active">Home</a>
+      <a href="department.html">Departments</a>
+      <a href="timetable.html">Timetables</a>
+      <a href="faculty.html">Faculty</a>
+      <a href="payment.html">Payments</a>
+      <a href="registration.html">Registration</a>
+    </div>
+    <div class="header-right"><button>Sign in</button></div>
+  </div>
+<body>
+  <div class="wrapper">
+    <h2>Registration</h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Enter StudentID" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter First Name" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter Last Name" required>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Enter your Password" required>
+      </div>
+      <div class="input-box">
+        <input type="date" placeholder="" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your Faculty Name" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your Department Name" required>
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your Telephone Number">
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your Address">
+      </div>
+      <div class="input-box">
+        <span class="details">Upload Picture</span>
+        <input type="file" id="picture" accept="image/*" required>
+        <img src="#" alt="Uploaded Picture" id="uploadedPicture" style="max-width: 100%; display: none;">
+      </div>
+      <div class="input-box button" style="margin-top: 42px;">
+        <input type="Submit" value="Register Now">
+      </div>
+      
+    </form>
+  </div>
+
+
+</body>
+</html>
